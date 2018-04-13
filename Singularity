@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: icaberg/rstudio
+From: icaoberg/rstudio
 
 IncludeCmd: yes
 
