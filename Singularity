@@ -3,6 +3,9 @@ From: ubuntu:16.04
 
 IncludeCmd: yes
 
+%help
+    Container R-base
+
 %runscript
     exec "$@"
 
@@ -31,7 +34,20 @@ IncludeCmd: yes
     export BEST_APP
 
 %apphelp R
-    For more information visit https://en.wikipedia.org/wiki/Cowsay
+    For more information visit https://www.rdocumentation.org/
 
 %apprun R
     R "$@"
+
+%appinstall Rscript
+    /usr/bin/apt-get install r-base
+
+%appenv Rscript
+    BEST_APP=Rscript
+    export BEST_APP
+
+%apphelp Rscript
+    For more information visit https://www.rdocumentation.org/
+
+%apprun Rscript
+    Rscript "$@"
