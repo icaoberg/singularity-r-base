@@ -1,4 +1,5 @@
 # singularity-rstudio
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2230)
 ![Release](https://img.shields.io/badge/release-prealpha-red.svg)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-rstudio.svg)](https://github.com/icaoberg/singularity-rstudio/issues)
 [![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-rstudio.svg)](https://github.com/icaoberg/singularity-rstudio/network)
