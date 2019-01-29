@@ -7,7 +7,7 @@
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
 
-## Singularity
+## Create image locally
 To create the Singularity container, run the command
 
 ```
@@ -36,3 +36,17 @@ GNU General Public License versions 2 or 3.
 For more information about these matters see
 http://www.gnu.org/licenses/.
 ```
+
+## Pull image from Singularity Hub
+
+```
+ singularity pull shub://icaoberg/singularity-rstudio
+ singularity pull --name customname.img shub://icaoberg/singularity-rstudio
+ singularity pull --commit shub://icaoberg/singularity-rstudio
+ singularity pull --hash shub://icaoberg/singularity-rstudio
+```
+
+---
+[![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
+
+Copyleft © 2018-2019 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
