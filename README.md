@@ -1,4 +1,4 @@
-# singularity-rstudio
+# singularity-rbase
 [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2230)
 ![Release](https://img.shields.io/badge/release-prealpha-red.svg)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-rstudio.svg)](https://github.com/icaoberg/singularity-rstudio/issues)
@@ -11,8 +11,7 @@
 To create the Singularity container, run the command
 
 ```
-singularity image.create -s 5000 R.simg
-sudo singularity build R.simg Singularity
+bash ./script.sh
 ```
 
 To connect to the Singularity image, run the command
@@ -25,25 +24,17 @@ Singularity: Invoking an interactive shell within container...
 ### version
 
 ```
-singularity run --app R R.simg --version
-R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
-Copyright (C) 2015 The R Foundation for Statistical Computing
+➜  singularity run --app R opensuse42-r-base-v3.6.1.simg --version
+R version 3.6.1 (2019-07-05) -- "Action of the Toes"
+Copyright (C) 2019 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under the terms of the
 GNU General Public License versions 2 or 3.
 For more information about these matters see
-http://www.gnu.org/licenses/.
-```
+https://www.gnu.org/licenses/.
 
-## Pull image from Singularity Hub
-
-```
- singularity pull shub://icaoberg/singularity-rstudio
- singularity pull --name customname.img shub://icaoberg/singularity-rstudio
- singularity pull --commit shub://icaoberg/singularity-rstudio
- singularity pull --hash shub://icaoberg/singularity-rstudio
 ```
 
 ---

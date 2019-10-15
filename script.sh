@@ -1,11 +1,10 @@
 #!/bin/bash
 
-IMAGE=R.simg
+IMAGE=opensuse42-r-base-v3.6.1.simg
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
 	rm -fv $IMAGE
 fi
 
-singularity image.create -s 2000 $IMAGE
 sudo singularity build $IMAGE $DEFINITION
