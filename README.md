@@ -6,7 +6,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-rstudio.svg)](https://github.com/icaoberg/singularity-rstudio/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
-
 ## Create image locally
 To create the Singularity container, run the command
 
@@ -21,7 +20,7 @@ To connect to the Singularity image, run the command
 Singularity: Invoking an interactive shell within container...
 ```
 
-### version
+### Version
 
 ```
 ➜  singularity run --app R opensuse42-r-base-v3.6.1.simg --version
@@ -36,6 +35,11 @@ For more information about these matters see
 https://www.gnu.org/licenses/.
 
 ```
+## Disclaimer
+
+[![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
+
+I am nothing but a humble programmer creating the container for these wonderful apps.
 
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
