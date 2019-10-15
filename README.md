@@ -1,4 +1,4 @@
-# singularity-rbase
+# singularity-r-base
 [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2230)
 ![Release](https://img.shields.io/badge/release-prealpha-red.svg)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-rstudio.svg)](https://github.com/icaoberg/singularity-rstudio/issues)
@@ -17,7 +17,7 @@ bash ./script.sh
 To connect to the Singularity image, run the command
 
 ```
-> singularity shell R.simg
+> singularity shell opensuse42-r-base-v3.6.1.simg
 Singularity: Invoking an interactive shell within container...
 ```
 
