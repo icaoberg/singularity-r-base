@@ -12,10 +12,6 @@ IncludeCmd: yes
 %environment
     export LC_ALL=C
 
-%appenv R
-    BEST_APP=R
-    export BEST_APP
-
 %apphelp R
     For more information visit https://www.rdocumentation.org/
 
